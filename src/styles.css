@@ -1,0 +1,173 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  font-family: 'Prompt', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #010000;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+  background: #e6e6e6;
+}
+a{
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #010000;
+  cursor: pointer;
+}
+a:hover{
+color:  #000000;
+}
+a,
+a:hover{
+  -webkit-transtiton: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+h1{
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 35px;
+  color: #010000;
+  margin: 0 0 20px 0;
+  padding: 0;
+  display: block;
+}
+
+#container{
+  width: 100%;
+  max-width: 1345px;
+  margin: 0 auto;
+  padding: 30px 0;
+  background: #ffffff;
+}
+
+header{
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-color: #ffffff;
+}
+
+header .logo img {
+  position: absolute;
+  left: 23px;
+  top: 50%;
+  transform: translateY(-263%);
+}
+
+@media only screen and (max-width: 1345px){
+
+    #container{
+      width: auto;
+      margin: 0 3%;
+    }
+    header .logo img {
+
+    top: 52%;
+
+}
+
+}
+
+@media only screen and (device-width : 375px) and (device-height : 812px)  and (-webkit-device-pixel-ratio : 3)
+{
+  header .logo img {
+
+  top: 43%;
+
+}
+}
+
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2)
+    {
+      header .logo img {
+
+      top: 50%;
+
+    }
+    }
+
+    @media only screen  and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3)
+    {
+      header .logo img {
+
+      top: 46%;
+
+    }
+    }
+
+    @media only screen and (min-width: 412px) and (max-width: 435px) and (min-height: 732px) and (max-height: 773px) and (orientation:portrait)
+    {
+      header .logo img {
+
+      top: 46%;
+
+    }
+    }
+
+
+
+    @media only screen and (min-width: 750px) and (max-width: 768px) and (min-height: 1000px) and (max-height: 1024px) and (orientation:portrait)
+    {
+      header .logo img {
+
+      top: 33%;
+
+    }
+    }
+
+
+
+
+nav {
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+  margin: 0 auto;
+  padding: 0;
+  background: #010000;
+  color: #ffffff;
+}
+
+nav,
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  float: left;
+  margin: 0 5px 0 0;
+}
+
+nav ul li a {
+  display: block;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 20px;
+}
+
+nav ul li a:hover {
+  background: #ffffff;
+  color: #010000;
+}
+
+ #container .main {
+   display: block;
+   margin: 35px 0;
+   padding: 0 10px;
+ }
+
+ footer {
+   background: #010000;
+   color: #ffffff;
+   min-height: 300px;
+       margin-top: 68px;
+
+ }
